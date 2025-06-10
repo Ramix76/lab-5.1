@@ -1,0 +1,54 @@
+.container{
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: azure;
+}
+
+.animation-box{
+    position: relative;
+    background-color: blue;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    animation: bounce 3s infinite ease-in-out;;
+
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0) scaleY(1) scaleX(1);
+  }
+
+  45% {
+    transform: translateY(250px) scaleY(1) scaleX(1);
+  }
+
+  47% {
+    transform: translateY(250px) scaleY(0.95) scaleX(1.05);
+  }
+
+  49% {
+    transform: translateY(250px) scaleY(0.9) scaleX(1.1);
+  }
+
+  51% {
+    transform: translateY(250px) scaleY(0.95) scaleX(1.05);
+  }
+
+  53% {
+    transform: translateY(250px) scaleY(1.02) scaleX(0.98);
+  }
+
+  55% {
+    transform: translateY(250px) scaleY(1) scaleX(1);
+  }
+
+  100% {
+    transform: translateY(0) scaleY(1) scaleX(1);
+  }
+}
+
+
